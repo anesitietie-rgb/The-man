@@ -1,18 +1,18 @@
 {
-"name&quot": "PHP, MySQL, and phpMyAdmin Environment",
+"name": "PHP, MySQL, and phpMyAdmin Environment",
 "dockerComposeFile": "docker-compose.yml",
-"service": "web&quot",
+"service": "web",
 "workspaceFolder": "/var/www/html",
 "forwardPorts": [8080, 8081],
 "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder",
-"features&quot": {
+"features": {
 "ghcr.io/devcontainers/features/common-utils:2": {
 ";installGit": true,
-";username&quot":"vscode&quot"
+";username":"vscode"
   }  
 },
 "customizations": {
-"vscode&quot": {
+"vscode": {
 "extensions": [
   "bmewburn.vscode-intelephense-client",
   "mtxr.sqltools",
